@@ -1,7 +1,7 @@
 #--------------------------------------------------------------------------------
 #
 # CODE FOIUND HERE: https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/
-# 
+# Github repository created
 #--------------------------------------------------------------------------------
 
 # Python3 program to solve N Queen Problem using
