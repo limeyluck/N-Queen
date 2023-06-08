@@ -1,3 +1,9 @@
+#--------------------------------------------------------------------------------
+#
+# CODE FOIUND HERE: https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/
+#
+#--------------------------------------------------------------------------------
+
 # Python3 program to solve N Queen Problem using
 # backtracking
 N = 4
