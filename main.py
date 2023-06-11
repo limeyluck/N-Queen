@@ -6,7 +6,7 @@
 
 # Python3 program to solve N Queen Problem using
 # backtracking
-N = 4
+N = 8
  
 # ld is an array where its indices indicate row-col+N-1
 # (N-1) is for shifting the difference to store negative
@@ -83,10 +83,20 @@ def solveNQUtil(board, col):
 # solutions, this function prints one of the
 # feasible solutions.
 def solveNQ():
-    board = [[0, 0, 0, 0],
-             [0, 0, 0, 0],
-             [0, 0, 0, 0],
-             [0, 0, 0, 0]]
+    # board = [[0, 0, 0, 0],
+    #          [0, 0, 0, 0],
+    #          [0, 0, 0, 0],
+    #          [0, 0, 0, 0]]
+  
+    board = [[0, 0, 0, 0, 0, 0, 0, 0],
+             [0, 0, 0, 0, 0, 0, 0, 0],
+             [0, 0, 0, 0, 0, 0, 0, 0],
+             [0, 0, 0, 0, 0, 0, 0, 0],
+             [0, 0, 0, 0, 0, 0, 0, 0],
+             [0, 0, 0, 0, 0, 0, 0, 0],
+             [0, 0, 0, 0, 0, 0, 0, 0],
+             [0, 0, 0, 0, 0, 0, 0, 0]] 
+  
     if (solveNQUtil(board, 0) == False):
         printf("Solution does not exist")
         return False
