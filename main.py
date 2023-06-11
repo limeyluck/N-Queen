@@ -98,7 +98,7 @@ def solveNQ():
              [0, 0, 0, 0, 0, 0, 0, 0]] 
   
     if (solveNQUtil(board, 0) == False):
-        printf("Solution does not exist")
+        print("Solution does not exist")
         return False
     printSolution(board)
     return True
